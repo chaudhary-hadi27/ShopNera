@@ -1,0 +1,143 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Kivy
+.buildozer/
+bin/
+*.apk
+*.aab
+
+# Android/iOS Build Files
+.gradle/
+local.properties
+*.iml
+*.mobileprovision
+*.p12
+*.cer
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# FastAPI/Uvicorn
+*.pid
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Media uploads (if storing locally)
+media/uploads/*
+!media/uploads/.gitkeep
+
+# Static files (if collected)
+staticfiles/
+static_collected/
+
+# AI Model files (large)
+*.h5
+*.pkl
+*.joblib
+*.model
+models/*.bin
+
+# Documentation builds
+docs/_build/
+site/
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Secrets & Keys
+*.pem
+*.key
+*.cert
+secrets.json
+
+# Docker
+docker-compose.override.yml
+
+# Redis dump
+dump.rdb
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
