@@ -1,0 +1,14 @@
+# Core UI framework
+kivy==2.3.0
+
+# (Optional) For building Android APKs
+buildozer==1.5.0
+
+# For HTTP requests (future use when connecting to backend)
+requests==2.32.3
+
+# For JSON data handling
+ujson==5.10.0
+
+# For async or background tasks (useful later)
+aiohttp==3.10.8
