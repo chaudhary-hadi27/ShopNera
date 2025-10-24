@@ -23,6 +23,7 @@ share/python-wheels/
 MANIFEST
 
 # Virtual Environment
+ShopNera-env
 venv/
 env/
 ENV/
